@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { PaymentElement, useStripe, useElements} from "@stripe/react-stripe-js";
 import styles from "./CheckoutForm.module.scss";
-import spinner from "../../assets/images/pngtree-colorful-loading-icon-png-image_2152960.jpg"
+import spinner from "../../assets/images/spinner.jpg";
 import { Card } from "../card/Card";
 import { CheckoutSummary } from "../checkoutSummary/CheckoutSummary";
 import { toast } from "react-toastify";

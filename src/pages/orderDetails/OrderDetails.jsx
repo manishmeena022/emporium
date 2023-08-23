@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styles from "./OrderDetails.module.scss";
 import { Link, useParams } from 'react-router-dom';
 import { useFetchDocument } from '../../customHooks/useFetchDocument';
-import spinnerImg from "../../assets/images/pngtree-colorful-loading-icon-png-image_2152960.jpg";
+import spinnerImg from "../../assets/images/spinner.jpg";
 
 export const OrderDetails = () => {
   const [order , setOrder] = useState(null);

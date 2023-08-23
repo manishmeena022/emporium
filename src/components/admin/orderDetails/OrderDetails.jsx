@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 import { useFetchDocument } from "../../../customHooks/useFetchDocument";
 import styles from "./OrderDetails.module.scss";
-import spinnerImg from "../../../assets/images/pngtree-colorful-loading-icon-png-image_2152960.jpg";
+import spinnerImg from "../../../assets/images/spinner.jpg";
 import { ChangeOrderStatus } from '../changeOrderStatus/ChangeOrderStatus';
 
 export const OrderDetails = () => {

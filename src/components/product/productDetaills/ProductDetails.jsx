@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styles from "./ProductDetails.module.scss";
-import { Link, useNavigate, useNavigation, useParams } from 'react-router-dom';
+import { Link, useNavigate , useParams } from 'react-router-dom';
 import spinnerimg from "../../../assets/images/spinner.jpg";
 import { ADD_TO_CART , DECREASE_CART, CALCULATE_TOTALQUANTITY , selectCartItems} from "../../../redux/slice/cartSlice";
 import { useDispatch } from 'react-redux';

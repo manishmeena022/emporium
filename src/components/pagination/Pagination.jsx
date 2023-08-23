@@ -28,7 +28,7 @@ export const Pagination = ({currentPage , setCurrentPage ,productsPerPage , tota
     const paginatePrev =() => {
         setCurrentPage(currentPage - 1);
         //show prev set of pageNumber
-        if((currentPage - 1)%  maxPageNumberLimit == 0){
+        if((currentPage - 1)%  maxPageNumberLimit === 0){
             setMaxPageNumberLimit(maxPageNumberLimit - pageNumberLimit);
             setMinPageNumberLimit(minPageNumberLimit - pageNumberLimit);
         }

@@ -5,7 +5,7 @@ import { ProductList } from './productList/ProductList';
 import { useDispatch, useSelector } from 'react-redux';
 import useFetctCollection from '../../customHooks/useFetchCollection';
 import { STORE_PRODUCTS, selectProducts } from '../../redux/slice/productSlice';
-import loader from "../../assets/images/cupertino_activity_indicator.gif";
+import loader from "../../assets/images/loader.gif";
 import { GET_PRICE_RANGE } from '../../redux/slice/productSlice';
 
 export const Product = () => {

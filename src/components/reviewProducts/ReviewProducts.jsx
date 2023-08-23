@@ -8,7 +8,7 @@ import { Timestamp, addDoc, collection } from 'firebase/firestore';
 import { toast } from 'react-toastify';
 import { db } from '../../firebase/config';
 import { Card } from '../card/Card';
-import spinnerImage from "../../assets/images/pngtree-colorful-loading-icon-png-image_2152960.jpg";
+import spinnerImage from "../../assets/images/spinner.jpg";
 import { useFetchDocument } from '../../customHooks/useFetchDocument'; 
 
 export const ReviewProducts = () => {
